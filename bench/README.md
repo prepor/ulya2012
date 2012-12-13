@@ -35,8 +35,8 @@ or
 ## Results
 
 
-<img src="prepor.github.com/ulya2012/imagesg/request_count_all.jpg"></img>
+<img src="https://raw.github.com/prepor/ulya2012/master/images/request_count_all.png"></img>
 
-<img src="prepor.github.com/ulya2012/imagesg/request_count.jpg"></img>
+<img src="https://raw.github.com/prepor/ulya2012/master/images/request_count.png"></img>
 
-<img src="prepor.github.com/ulya2012/imagesg/request_count.jpg"></img>
+<img src="https://raw.github.com/prepor/ulya2012/master/images/request_mean.png"></img>
