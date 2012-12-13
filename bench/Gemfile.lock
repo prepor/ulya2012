@@ -1,0 +1,76 @@
+GIT
+  remote: git://github.com/funny-falcon/thin-fun_embed.git
+  revision: c4398b4f8de76f2ff6e4bfd633df117dd91d626d
+  specs:
+    thin-fun_embed (0.0.2)
+      thin (>= 1.4)
+
+PATH
+  remote: ./green
+  specs:
+    green (0.0.1)
+      kgio (= 2.7.4)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    addressable (2.3.2)
+    algorithms (0.5.0)
+    cookiejar (0.3.0)
+    daemons (1.1.9)
+    em-http-request (1.0.3)
+      addressable (>= 2.2.3)
+      cookiejar
+      em-socksify
+      eventmachine (>= 1.0.0.beta.4)
+      http_parser.rb (>= 0.5.3)
+    em-socksify (0.2.1)
+      eventmachine (>= 1.0.0.beta.4)
+    em-synchrony (1.0.2)
+      eventmachine (>= 1.0.0.beta.1)
+    eventmachine (1.0.0)
+    ffi (1.2.0)
+    ffi-rzmq (0.9.6)
+      ffi
+    http_parser.rb (0.5.3)
+    kgio (2.7.4)
+    m2r (2.0.2)
+      ffi (>= 1.0.0)
+      ffi-rzmq (~> 0.9.3)
+      multi_json
+      tnetstring
+    multi_json (1.5.0)
+    nio4r (0.4.1)
+    puma (1.6.3)
+      rack (~> 1.2)
+    rack (1.4.1)
+    rainbows (4.4.1)
+      kgio (~> 2.5)
+      rack (~> 1.1)
+      unicorn (~> 4.1)
+    raindrops (0.10.0)
+    thin (1.5.0)
+      daemons (>= 1.0.9)
+      eventmachine (>= 0.12.6)
+      rack (>= 1.0.0)
+    tnetstring (0.3.4)
+    unicorn (4.3.1)
+      kgio (~> 2.6)
+      rack
+      raindrops (~> 0.7)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  algorithms
+  em-http-request
+  em-synchrony
+  eventmachine
+  green!
+  m2r
+  nio4r
+  puma
+  rainbows
+  thin-fun_embed!
+  unicorn
